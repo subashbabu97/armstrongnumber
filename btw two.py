@@ -1,7 +1,7 @@
 a,b=[int(a)  for a in input().split()]
 for i in range(a,b):
         s=0
-        c=11
+        c=i
         while(i!=0):
                 r=i%10
                 s=s+r*r*r
